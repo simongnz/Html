@@ -1,0 +1,65 @@
+:root{
+
+    --padding: 10px;
+    --border-radius: 5px;
+    --cursor: pointer;
+    --border: solid black 1px;
+
+}
+.verticalbutton{
+    background: rgba(255, 194, 0, 0.8);
+    text-align: left;
+    width: 60px;
+    padding: var(--padding);
+    border-radius: var(--border-radius);
+    cursor: var(--cursor);
+    border: var(--border);
+
+}
+
+
+.verticalbutton:hover{
+    background: darkorange;
+
+}
+
+#disable.verticalbutton{
+    background: rgba(255, 194, 0, 0.2);
+    cursor: not-allowed;
+    text-align: left;
+}
+
+.horizontalbutton{
+    background: green;
+    padding: var(--padding);
+    border-radius: var(--border-radius);
+    cursor: var(--cursor);
+    border: var(--border);
+}
+
+.horizontalbutton:hover{
+    background: darkgreen;
+
+
+}
+
+#shadow.horizontalbutton{
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    text-align: right;
+}
+
+.horizontalbutton_space{
+    background: blue;
+    margin: 15px;
+    padding: var(--padding);
+    border-radius: var(--border-radius);
+    cursor: var(--cursor);
+    border: var(--border);
+}
+
+
+.horizontalbutton_space:hover{
+    background: darkblue;
+
+}
