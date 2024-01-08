@@ -1,19 +1,33 @@
 :root{
 
     --padding: 10px;
-    --border-radius: 5px;
     --cursor: pointer;
     --border: solid black 1px;
+    --color: rgb(255,255,255);
 
 }
+
+.editbutton{
+    background: rgb(0, 123, 123);
+    text-align: center;
+    width: 20px;
+    padding: var(--padding);
+    cursor: var(--cursor);
+    border: var(--border);
+    color: var(--color);
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
 .verticalbutton{
     background: rgba(255, 194, 0, 0.8);
     text-align: left;
     width: 80px;
     padding: var(--padding);
-    border-radius: var(--border-radius);
     cursor: var(--cursor);
     border: var(--border);
+    color: var(--color);
 
 }
 
@@ -27,14 +41,21 @@
     background: rgba(255, 194, 0, 0.2);
     cursor: not-allowed;
     text-align: left;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#top.verticalbutton{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .horizontalbutton{
     background: green;
     padding: var(--padding);
-    border-radius: var(--border-radius);
     cursor: var(--cursor);
     border: var(--border);
+    color: var(--color);
 }
 
 .horizontalbutton:hover{
@@ -47,18 +68,57 @@
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
     font-weight: bold;
     text-align: right;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#lefthor.horizontalbutton{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .horizontalbutton_space{
     background: blue;
     margin: 15px;
     padding: var(--padding);
-    border-radius: var(--border-radius);
+    border-radius: 10px;
     cursor: var(--cursor);
     border: var(--border);
+    color: var(--color);
 }
 
 
 .horizontalbutton_space:hover{
     background: darkblue;
+}
+
+i{
+    color: #fff;
+}
+
+table {
+    height: 40px;
+    width: 100px;
+    border: solid lightgray;
+    border-collapse: collapse;
+
+}
+th{
+    font-size: 15px;
+    border: solid lightgray;
+    padding: 10px;
+    color: white;
+    background: black;
+    text-align: left;
+
+}
+
+td{
+    border: solid lightgray;
+    font-size: 15px;
+    padding: 10px;
+}
+
+tr:nth-child(odd) {
+    background: rgba(211,211,211,0.6);
 }
