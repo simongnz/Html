@@ -1,0 +1,66 @@
+.editbutton {
+    background: rgb(0, 123, 123);
+    width: 20px;
+    padding: var(--padding-10);
+    cursor: var(--cursor);
+    border: var(--border);
+    color: var(--letra-color-texto-negro);
+    border-radius: 10px;
+    text-align: center;
+}
+.verticalbutton {
+    background: rgba(255, 194, 0, 0.8);
+    text-align: left;
+    width: 80px;
+    padding: var(--padding-10);
+    cursor: var(--cursor);
+    border: var(--border);
+    color: var(--letra-color-texto-negro);
+}
+.verticalbutton:hover {
+    background: darkorange;
+}
+#disable.verticalbutton {
+    background: rgba(255, 194, 0, 0.2);
+    cursor: not-allowed;
+    text-align: left;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#top.verticalbutton {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.horizontalbutton {
+    background: green;
+    padding: var(--padding-10);
+    cursor: var(--cursor);
+    border: var(--border);
+    color: var(--letra-color-texto-blaco);
+}
+.horizontalbutton:hover {
+    background: darkgreen;
+}
+#shadow.horizontalbutton {
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+    text-align: right;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#lefthor.horizontalbutton {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.horizontalbutton_space {
+    background: blue;
+    margin: 15px;
+    padding: var(--padding-10);
+    border-radius: 10px;
+    cursor: var(--cursor);
+    border: var(--border);
+    color: var(--letra-color-texto-blaco);
+}
+.horizontalbutton_space:hover {
+    background: darkblue;
+}

@@ -1,0 +1,11 @@
+:root {
+    --padding-10: 10px;
+    --cursor: pointer;
+    --border: solid black 1px;
+    --letra-color-texto-negro: #000;
+    --letra-color-texto-blaco: rgb(255, 255, 255);
+    /* Variables Pantalla grande */
+    --relleno-boton-negro: black;
+    /* Variables Pantalla mediano */
+    --relleno-boton-rojo: red;
+}
