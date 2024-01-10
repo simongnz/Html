@@ -15,3 +15,12 @@
 ### Consulta
 - Como se utilizan las medias mobiles para que sea renposive.
 
+
+### 09/01/2024
+- Crear un navbar con div, que este dividido por 4 divs, el primero es el logo, buscar cualquier logo y llamarlo desee el proyecto, el segundo div, el nombre de la pagina, el tercer div es un input como tipo buscador y aun no tiene funcionalidad, y el cuarto el nombre de Iniciar Sesion, con un icono de una persona al lado del texto , acorde al texto 
+- La imagen que se pueda pintar desde css.
+- el navbar tiene que ser de color azul oscuro tirando a negro, con color en la letra de color blanco.
+- Cuando se desplace el scroll hacia abajo, que el navbar quede aclado en la parte de arriba, debes de consultar como hacerlo.
+- Consultar como invocar otro archivo css desde el archivo principal.
+- cuando se invoque la imagen que es el logo de la empresa o ecommer, la imagen tiene que estar dentro dentro del proyecto.
+- y por ultimo si alcanzas , cuando se reduzca la pantalla consultar, como colocar un icono de hamburguesa y acomodando la cabecera.
