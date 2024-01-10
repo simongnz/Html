@@ -1,43 +1,46 @@
-:root{
+:root {
 
-    --padding: 10px;
+    --padding-10: 10px;
     --cursor: pointer;
     --border: solid black 1px;
-    --color: rgb(255,255,255);
+    --letra-color-texto-negro: #000;
+    --letra-color-texto-blaco: rgb(255, 255, 255);
 
+    /* Variables Pantalla grande */
+    --relleno-boton-negro: black;
+
+    /* Variables Pantalla mediano */
+    --relleno-boton-rojo: red;
 }
 
-.editbutton{
+.editbutton {
     background: rgb(0, 123, 123);
     text-align: center;
     width: 20px;
-    padding: var(--padding);
+    padding: var(--padding-10);
     cursor: var(--cursor);
     border: var(--border);
-    color: var(--color);
+    color: var(--letra-color-texto-negro);
     border-radius: 10px;
     font-size: 15px;
     font-weight: bold;
 }
 
-.verticalbutton{
+.verticalbutton {
     background: rgba(255, 194, 0, 0.8);
     text-align: left;
     width: 80px;
-    padding: var(--padding);
+    padding: var(--padding-10);
     cursor: var(--cursor);
     border: var(--border);
-    color: var(--color);
-
+    color: var(--letra-color-texto-negro);
 }
 
-
-.verticalbutton:hover{
+.verticalbutton:hover {
     background: darkorange;
-
 }
 
-#disable.verticalbutton{
+#disable.verticalbutton {
     background: rgba(255, 194, 0, 0.2);
     cursor: not-allowed;
     text-align: left;
@@ -45,26 +48,24 @@
     border-bottom-right-radius: 10px;
 }
 
-#top.verticalbutton{
+#top.verticalbutton {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 
-.horizontalbutton{
+.horizontalbutton {
     background: green;
-    padding: var(--padding);
+    padding: var(--padding-10);
     cursor: var(--cursor);
     border: var(--border);
-    color: var(--color);
+    color: var(--letra-color-texto-blaco);
 }
 
-.horizontalbutton:hover{
+.horizontalbutton:hover {
     background: darkgreen;
-
-
 }
 
-#shadow.horizontalbutton{
+#shadow.horizontalbutton {
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
     font-weight: bold;
     text-align: right;
@@ -72,53 +73,85 @@
     border-bottom-right-radius: 10px;
 }
 
-#lefthor.horizontalbutton{
+#lefthor.horizontalbutton {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
 
-.horizontalbutton_space{
+.horizontalbutton_space {
     background: blue;
     margin: 15px;
-    padding: var(--padding);
+    padding: var(--padding-10);
     border-radius: 10px;
     cursor: var(--cursor);
     border: var(--border);
-    color: var(--color);
+    color: var(--letra-color-texto-blaco);
 }
 
-
-.horizontalbutton_space:hover{
+.horizontalbutton_space:hover {
     background: darkblue;
 }
 
-i{
+i {
     color: #fff;
 }
 
 table {
     height: 40px;
-    width: 100px;
+    width: 100%;
     border: solid lightgray;
     border-collapse: collapse;
 
 }
-th{
+
+th {
     font-size: 15px;
     border: solid lightgray;
     padding: 10px;
     color: white;
     background: black;
     text-align: left;
-
 }
 
-td{
+td {
     border: solid lightgray;
     font-size: 15px;
     padding: 10px;
 }
 
 tr:nth-child(odd) {
-    background: rgba(211,211,211,0.6);
+    background: rgba(211, 211, 211, 0.6);
+}
+
+/*************************************************/
+/********************* MEDIAS MOBILES ****************************/
+
+/*************************************************/
+/* Estilos para pantallas grandes (mayores de 1200px) */
+@media only screen and (min-width: 1200px) {
+    .editbutton {
+        background: var(--relleno-boton-negro);
+    }
+}
+
+/* Estilos para pantallas medianas (entre 992px y 1200px) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .editbutton {
+        background: var(--relleno-boton-rojo);
+    }
+}
+
+/* Estilos para pantallas pequeñas (entre 768px y 991px) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Estilos para tablets (entre 576px y 767px) */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+}
+
+/* Estilos para dispositivos móviles (menores de 576px) */
+@media only screen and (max-width: 575px) {
+
 }
