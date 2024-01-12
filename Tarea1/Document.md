@@ -24,3 +24,16 @@
 - Consultar como invocar otro archivo css desde el archivo principal.
 - cuando se invoque la imagen que es el logo de la empresa o ecommer, la imagen tiene que estar dentro dentro del proyecto.
 - y por ultimo si alcanzas , cuando se reduzca la pantalla consultar, como colocar un icono de hamburguesa y acomodando la cabecera.
+
+
+https://www.youtube.com/watch?v=JwyjHyGOgmg&list=PLhSj3UTs2_yU0fGoS1bjpHqky4kCEmTbR&index=7
+
+### 11/01/2024
+- Crear un footer , del mismo colocar del navbar, tener referencia de amazon, donde va a tener 4 columnas con la informacion principal de la pagina.
+- Debe tener el logo sobre posicionado entre el div principal y el div grande donde esta el texto.
+- Las columasn se debe de hacer con flexbox.
+- y se debe de utilizar herencia, es decir que los texto debe de heredar de una etiqueta.
+
+### Juego de flexbox.
+
+https://flexboxfroggy.com/#es
