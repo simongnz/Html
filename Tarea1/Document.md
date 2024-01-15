@@ -50,4 +50,7 @@ https://flexboxfroggy.com/#es
 - es un span debe tener un checkbox que se acepto terminos y condiciones.
 - El boton se submit.
 - El fondo del index tiene que ser un gris claro y el recuadro del formluario tiene que ser en color que estamos manejando.
-- Darle diseño a los input (debe tener un edondeado, un placeholder) y un icono a lado que sea representativo al campo. 
+- Darle diseño a los input (debe tener un edondeado, un placeholder) y un icono a lado que sea representativo al campo.
+- Instalar Mysql en el equipo.
+- Instalar ide para administrar base de datos mysql (sequelPro).
+- Consultar como crear una base de datos que se llame estudio.
