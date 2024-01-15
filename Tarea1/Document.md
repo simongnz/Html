@@ -37,3 +37,17 @@ https://www.youtube.com/watch?v=JwyjHyGOgmg&list=PLhSj3UTs2_yU0fGoS1bjpHqky4kCEm
 ### Juego de flexbox.
 
 https://flexboxfroggy.com/#es
+
+
+
+### 14/01/2024
+
+- Con css, en el index , crear una clase de contenedor, para que lo ingresado tenga un padding de 30 y quede todo organizado
+- Crear un formulario html con la etiqueta form.
+- El formulario tiene que quedar centrado al medio.
+- Debe tener un titulo que diga Registro Formulario
+- Los campos que debe de tener son (tipo documento(CC,nit, ti) - y es un selector,  identificacion  que va a ser tipo text, nombre completo que es tipo text, genero de tipo radio buttom, fecha de nacimiento tipo fecha, y un campo de observacion que es tipo Textarea, pero este tiene que tenr un row ).
+- es un span debe tener un checkbox que se acepto terminos y condiciones.
+- El boton se submit.
+- El fondo del index tiene que ser un gris claro y el recuadro del formluario tiene que ser en color que estamos manejando.
+- Darle diseño a los input (debe tener un edondeado, un placeholder) y un icono a lado que sea representativo al campo. 
