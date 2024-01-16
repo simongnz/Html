@@ -1,7 +1,22 @@
-body, html {
+* *{
     margin: 0;
     padding: 0;
 }
 i {
-    color: #fff;
+    color: yellow;
+}
+
+body{
+    background: #c9c9c9;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-family: Arial;
+    color: #252652;
 }

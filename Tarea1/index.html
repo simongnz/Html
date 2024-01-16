@@ -10,54 +10,89 @@
     <script src="https://kit.fontawesome.com/00d3785ba5.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<div class="navbar">
+<header class="navbar">
     <div class="imagenlogo"></div>
     <div class="nombrenav">BotShop</div>
     <div><input type="text" class="serachbar" placeholder="Search bots.."></div>
     <div class="inciarsec"><i class="fa-solid fa-user"></i> Iniciar session</div>
-</div>
-<br/><br/><br/><br/><br/><br/>
+</header>
+<main>
+    <h1 class="signup">Sign up</h1>
+    <div class="registerbox icons signupinput registerselect register">
+        <form action="POST">
+            <label for="documentnumber">Document Number</label>
+            <select id="documentype" name="documentype" required>
+                <option value="" disabled selected> Select..</option>
+                <option value="cc">CC</option>
+                <option value="ti">TI</option>
+                <option value="nit">NIT</option>
+            </select>
+            <i class="fa-solid fa-id-card"></i>
+            <input type="text" id="documentnumber" placeholder="Enter number" required>
+            <label for="fullname">Full Name</label>
+            <i class="fa-solid fa-user-pen"></i>
+            <input type="text" id="fullname" placeholder="Enter Full Name" required>
+            <label for="genderuser">Gender</label>
+            <select id="genderuser" name="genderuser" required>
+                <option value="" disabled selected> Select..</option>
+                <option value="cc">Male</option>
+                <option value="ti">Female</option>
+            </select>
+            <label for="dateofbirth">Date of Birth</label>
+            <input type="date" id="dateofbirth" name="dateofbirth" required>
+            <label for="observation">Observation</label>
+            <textarea id="observation" class="textarearegister" name="observation" placeholder="Type your observation.." rows="4" required></textarea>
+            <label id="terms" for="termsinp">Terms and Conditions</label>
+            <input type="checkbox" id="termsinp" name="terms">
+            <input type="submit" id="bottoninp">
+        </form>
+    </div>
+</main>
 
-<div class="topfooter">
-    <div id="footerimage" class="imagenlogo"></div>
-</div>
-<div class="bottomfooter">
-    <div class="footertext">
-        <h3> Contact us! </h3>
-        <ul>
-            <li><i class="fa-solid fa-phone"></i> Call Now (+12)123-456-7896</li>
-            <li><i class="fa-solid fa-headset"></i> Live Chat</li>
-            <li><i class="fa-brands fa-instagram"></i> Instagram</li>
-            <li><i class="fa-brands fa-facebook"></i> Facebook</li>
-        </ul>
+<footer>
+    <div class="topfooter">
+        <div id="footerimage" class="imagenlogo"></div>
     </div>
-    <div class="footertext">
-        <h3> Support </h3>
-        <ul>
-            <li>Your Orders</li>
-            <li>Your Account</li>
-            <li>Manage your bots</li>
-            <li>Help</li>
-        </ul>
+    <div class="bottomfooter">
+        <div class="footertext">
+            <h3> Contact us! </h3>
+            <ul>
+                <li><i class="fa-solid fa-phone"></i> Call Now (+12)123-456-7896</li>
+                <li><i class="fa-solid fa-headset"></i> Live Chat</li>
+                <li><i class="fa-brands fa-instagram"></i> Instagram</li>
+                <li><i class="fa-brands fa-facebook"></i> Facebook</li>
+            </ul>
+        </div>
+        <div class="footertext">
+            <h3> Support </h3>
+            <ul>
+                <li>Your Orders</li>
+                <li>Your Account</li>
+                <li>Manage your bots</li>
+                <li>Help</li>
+            </ul>
+        </div>
+        <div class="footertext">
+            <h3> Get To Know Us </h3>
+            <ul>
+                <li>About BotShop</li>
+                <li>Newsletter</li>
+                <li>FAQ</li>
+                <li>Media</li>
+            </ul>
+        </div>
+        <div class="footertext">
+            <h3> Request a Quote </h3>
+            <ul>
+                <li>Business Bots</li>
+                <li>Personalized Bots</li>
+                <li>Bundle bots</li>
+                <li>Spam bots</li>
+            </ul>
+        </div>
     </div>
-    <div class="footertext">
-        <h3> Get To Know Us </h3>
-        <ul>
-            <li>About BotShop</li>
-            <li>Newsletter</li>
-            <li>FAQ</li>
-            <li>Media</li>
-        </ul>
-    </div>
-    <div class="footertext">
-        <h3> Request a Quote </h3>
-        <ul>
-            <li>Business Bots</li>
-            <li>Personalized Bots</li>
-            <li>Bundle bots</li>
-            <li>Spam bots</li>
-        </ul>
-    </div>
-</div>
+</footer>
+
+
 </body>
 </html>

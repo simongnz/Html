@@ -1,0 +1,53 @@
+.registerbox{
+    background: #010224;
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin: 15px;
+    border-radius: 10px;
+}
+.signup{
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.register label{
+    display: block;
+    margin-top: 5px;
+}
+
+.icons i {
+    position: absolute;
+    padding: 5px;
+    color: black;
+    margin-top: 8px;
+}
+
+.signupinput input{
+    width: 80%;
+    height: 20px;
+    text-align: center;
+    margin-top: 5px;
+
+}
+
+.registerselect select{
+    height: 20px;
+    margin-top: 10px;
+}
+#genderuser{
+    width: 81%;
+}
+.textarearegister{
+    width: 80%;
+    margin: 10px;
+}
+#bottoninp{
+    height: 40px;
+    color: black;
+    background: yellow;
+}
+
