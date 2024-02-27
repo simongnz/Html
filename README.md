@@ -1,3 +1,5 @@
+[![OpenSSF Scorecard](htt‌ps://api.securityscorecards.dev/projects/github.com/{owner}/{repo}/badge)](htt‌ps://securityscorecards.dev/viewer/?uri=github.com/{owner}/{repo})
+
 BotShop Web Application
 
 This repository contains the HTML and CSS code for the BotShop web application.
